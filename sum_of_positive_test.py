@@ -1,4 +1,5 @@
 import unittest
+
 from sum_of_positive import positive_sum
 
 class TestPositiveSum(unittest.TestCase):
