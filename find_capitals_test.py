@@ -8,6 +8,7 @@ class TestFindCapitals(unittest.TestCase):
 
     def test_no_capitals(self):
         self.assertEqual(find_capitals("hello world"), "")
+        self.assertEqual(find_capitals("Hello World"), "HW")
 
     def test_some_capitals(self):
         self.assertEqual(find_capitals("The Quick Brown Fox"), "TQBF")
