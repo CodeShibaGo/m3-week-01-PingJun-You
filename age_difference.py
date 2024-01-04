@@ -16,6 +16,7 @@ def age_difference(ages):
 # print(age_difference([18, 25, 50, 35, 40]))
 # print(age_difference([30, 20, 25, 40, 45, 50]))
 # print(age_difference([10, 5, 8, 20, 15, 25]))
+# print(age_difference([10, 5, 8, 20, 15, 25]))
 
 
 
