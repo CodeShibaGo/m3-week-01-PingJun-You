@@ -15,23 +15,34 @@
 
 def categorize_new_member(data):
     categories=[]
-
     for member in data:
         age, score = member
 
-        if(age>=55 and score>7) or (age<55 and score>7):
+        print(age, score)
+        if (age>55 and score>7) or (age<55 and score>7):
             categories.append('Senior')
         else:
             categories.append('Open')
-
     return categories
 
-data = [(45, 12.5), (55, 9.0), (65, 8.0), (21, 11.5)]
-category_member_list = categorize_new_member(data)
-print(f"category_member_list:{category_member_list}")
+
+# data = [(45, 10.0), (40, 6.0)]
+# category_member_list = categorize_new_member(data)
+# print(f"category_member_list:{category_member_list}")
 
 
-data = [(58, 8.5), (80, 6.0), (40, 7.0)]
-category_member_list = categorize_new_member(data)
-print(f"category_member_list:{category_member_list}")
+
+
+# data = [(45, 12.5), (55, 9.0), (65, 8.0), (21, 11.5)]
+# category_member_list = categorize_new_member(data)
+# print(f"category_member_list:{category_member_list}")
+
+# data = [(45, 10.0), (40, 6.0)]
+# category_member_list = categorize_new_member(data)
+# print(f"category_member_list:{category_member_list}")
+
+
+# data = [(58, 8.5), (80, 6.0), (40, 7.0)]
+# category_member_list = categorize_new_member(data)
+# print(f"category_member_list:{category_member_list}")
 
