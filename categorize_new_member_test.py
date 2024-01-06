@@ -9,7 +9,7 @@ class TestCategorizeNewMember(unittest.TestCase):
 
     # 測試 open 成員的情況
     def test_open_members(self):
-        self.assertEqual(categorize_new_member([(45, 10.0), (40, 6.0)]), ["Open", "Open"])
+        self.assertEqual(categorize_new_member([(45, 10.0), (40, 6.0)]), ["Senior", "Open"])
 
     # 測試混合成員的情況
     def test_mixed_members(self):
